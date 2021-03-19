@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T16:22:45Z" name="Suite" finished-at="2021-03-19T16:23:04Z" duration-ms="18258">
+    <groups>
+    </groups>
+    <test started-at="2021-03-19T16:22:45Z" name="Validating Positive test cases" finished-at="2021-03-19T16:23:04Z" duration-ms="18258">
+      <class name="Academy.operationalTestcases">
+        <test-method signature="deletekeycheck()[pri:0, instance:Academy.operationalTestcases@7e6ef134]" started-at="2021-03-19T12:23:01Z" name="deletekeycheck" finished-at="2021-03-19T12:23:01Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletekeycheck -->
+        <test-method signature="checknumbersworking()[pri:0, instance:Academy.operationalTestcases@7e6ef134]" started-at="2021-03-19T12:23:02Z" name="checknumbersworking" finished-at="2021-03-19T12:23:02Z" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknumbersworking -->
+      </class> <!-- Academy.operationalTestcases -->
+      <class name="Academy.FunctionalTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:22:45Z" name="initialize" finished-at="2021-03-19T12:22:50Z" duration-ms="4227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.NegativeTest@7d1cfb8b]" started-at="2021-03-19T12:22:50Z" name="initialize" finished-at="2021-03-19T12:22:53Z" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.operationalTestcases@7e6ef134]" started-at="2021-03-19T12:22:53Z" name="initialize" finished-at="2021-03-19T12:22:58Z" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="BODMAStest()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:00Z" name="BODMAStest" finished-at="2021-03-19T12:23:01Z" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BODMAStest -->
+        <test-method signature="addtest()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:01Z" name="addtest" finished-at="2021-03-19T12:23:02Z" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtest -->
+        <test-method signature="subtest()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:02Z" name="subtest" finished-at="2021-03-19T12:23:03Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtest -->
+        <test-method signature="MultiplicationTest()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:03Z" name="MultiplicationTest" finished-at="2021-03-19T12:23:03Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplicationTest -->
+        <test-method signature="DIVTest()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:03Z" name="DIVTest" finished-at="2021-03-19T12:23:03Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DIVTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.FunctionalTest@22356acd]" started-at="2021-03-19T12:23:03Z" name="teardown" finished-at="2021-03-19T12:23:03Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.NegativeTest@7d1cfb8b]" started-at="2021-03-19T12:23:03Z" name="teardown" finished-at="2021-03-19T12:23:04Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.operationalTestcases@7e6ef134]" started-at="2021-03-19T12:23:04Z" name="teardown" finished-at="2021-03-19T12:23:04Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.FunctionalTest -->
+      <class name="Academy.NegativeTest">
+        <test-method signature="dividenumberbyzero()[pri:0, instance:Academy.NegativeTest@7d1cfb8b]" started-at="2021-03-19T12:22:58Z" name="dividenumberbyzero" finished-at="2021-03-19T12:22:59Z" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividenumberbyzero -->
+        <test-method signature="dividezerobynumber()[pri:0, instance:Academy.NegativeTest@7d1cfb8b]" started-at="2021-03-19T12:22:59Z" name="dividezerobynumber" finished-at="2021-03-19T12:23:00Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividezerobynumber -->
+        <test-method signature="dividezerobyzero()[pri:0, instance:Academy.NegativeTest@7d1cfb8b]" started-at="2021-03-19T12:23:00Z" name="dividezerobyzero" finished-at="2021-03-19T12:23:00Z" duration-ms="231" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<ERR> but was:<NaN>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<ERR> but was:<NaN>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at Academy.NegativeTest.dividezerobyzero(NegativeTest.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividezerobyzero -->
+      </class> <!-- Academy.NegativeTest -->
+    </test> <!-- Validating Positive test cases -->
+  </suite> <!-- Suite -->
+</testng-results>

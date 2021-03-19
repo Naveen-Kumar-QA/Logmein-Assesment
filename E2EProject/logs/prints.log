@@ -1,0 +1,6 @@
+12:23:01.424 [TestNG] INFO  resources.base - BODMAS rule Passed
+12:23:01.798 [TestNG] INFO  resources.base -  DEL button is operational
+12:23:02.239 [TestNG] INFO  resources.base - Addition test passed 
+12:23:02.800 [TestNG] INFO  resources.base - All the individual number buttons and equals button are operational
+12:23:03.170 [TestNG] INFO  resources.base - Subtraction test passed
+12:23:03.469 [TestNG] INFO  resources.base - Multiplication test passed

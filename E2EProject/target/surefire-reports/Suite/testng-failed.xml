@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating Positive test cases(failed)">
+    <classes>
+      <class name="Academy.operationalTestcases">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.operationalTestcases -->
+      <class name="Academy.NegativeTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="dividezerobyzero"/>
+        </methods>
+      </class> <!-- Academy.NegativeTest -->
+      <class name="Academy.FunctionalTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.FunctionalTest -->
+    </classes>
+  </test> <!-- Validating Positive test cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
