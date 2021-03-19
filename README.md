@@ -2,7 +2,8 @@
 # Assessment for LogMeIn
 A) Requirements to run through command prompt.
   1)Need Java setup in Local.
-  2)Need Maven setup in local.
+  2)Need TestNG setup in local
+  3)Need Maven setup in local.
   
    To run the project, download the code first.
    Open command prompt and set the directory to where the assesment project is.
